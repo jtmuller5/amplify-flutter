@@ -88,7 +88,7 @@ jobs:
     # It is recommended that all actions requiring a simulator be run on XL runners
     # since the process of installing new runtimes and building with Xcode can be
     # incredibly slow otherwise.
-    runs-on: macos-latest-xl
+    runs-on: macos-14-xlarge
     # Timeout as a stop-gap for further investigating. This action should never need more
     # than 20 minutes to do its work.
     timeout-minutes: 20
